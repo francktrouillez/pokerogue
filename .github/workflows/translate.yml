@@ -6,7 +6,7 @@ on:
   # Trigger the workflow on push on the main branch
   push:
     branches:
-      - main  # Trigger on push events to the main branch
+      - test/trigger-translate-action  # [TEST] Trigger on push events to the test branch
 jobs:
   translate:  # Define a job named "translate"
     name: Translate missing keys  # Human-readable name for the job
