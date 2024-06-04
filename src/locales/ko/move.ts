@@ -674,7 +674,6 @@ export const move: MoveTranslationEntries = {
   },
   thief: {
     name: "도둑질",
-    /* 지닌 도구 대신 확률 제한 */
     effect: "공격과 동시에 30%의 확률로 도구를 훔친다."
   },
   spiderWeb: {
@@ -1375,7 +1374,6 @@ export const move: MoveTranslationEntries = {
   },
   covet: {
     name: "탐내기",
-    /* 지닌 도구 대신 확률 제한 */
     effect: "귀엽게 애교부리며 상대에게 다가가 30%의 확률로 지니고 있는 도구를 뺏는다."
   },
   voltTackle: {
@@ -2920,7 +2918,6 @@ export const move: MoveTranslationEntries = {
   },
   zippyZap: {
     name: "파찌파찌액셀",
-    /* 임의번역 (렛츠고 신규 기술) */
     effect: "맹렬한 속도의 전격 공격. 반드시 선제공격할 수 있고 자신의 회피율을 높인다."
   },
   splishySplash: {
@@ -2981,7 +2978,6 @@ export const move: MoveTranslationEntries = {
   },
   dynamaxCannon: {
     name: "다이맥스포",
-    /* 다이맥스에서 200레벨로 조건 변경 */
     effect: "코어에서 빔을 발사해서 공격한다. 상대의 레벨이 200보다 크면 데미지가 2배가 된다."
   },
   snipeShot: {
@@ -3314,12 +3310,10 @@ export const move: MoveTranslationEntries = {
   },
   direClaw: {
     name: "페이탈클로",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "치명적인 손톱으로 공격한다. 상대를 독, 마비, 잠듦 중 하나의 상태로 만들 때가 있다."
   },
   psyshieldBash: {
     name: "배리어러시",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "사념의 에너지를 두른 채로 상대에게 부딪친다. 자신의 방어를 올린다."
   },
   powerShift: {
@@ -3332,7 +3326,6 @@ export const move: MoveTranslationEntries = {
   },
   springtideStorm: {
     name: "봄의폭풍",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "애증 섞인 강렬한 바람으로 상대를 둘러싸서 공격한다. 상대의 공격을 떨어뜨릴 때가 있다."
   },
   mysticalPower: {
@@ -3353,12 +3346,10 @@ export const move: MoveTranslationEntries = {
   },
   mountainGale: {
     name: "빙산바람",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "빙산처럼 커다란 얼음덩어리를 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다."
   },
   victoryDance: {
     name: "승리의춤",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "승리를 부르는 춤을 격렬하게 춘다. 자신의 공격과 방어와 스피드를 올린다."
   },
   headlongRush: {
@@ -3371,17 +3362,14 @@ export const move: MoveTranslationEntries = {
   },
   esperWing: {
     name: "오라윙",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "오라로 강화한 날개로 베어 가른다. 급소에 맞기 쉽다. 자신의 스피드를 올린다."
   },
   bitterMalice: {
     name: "천추지한",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "등골이 서늘해지는 원념으로 공격해서 상대의 공격을 떨어뜨린다."
   },
   shelter: {
     name: "농성",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "피부를 강철 방패처럼 단단하게 만들어서 자신의 방어를 크게 올린다."
   },
   tripleArrows: {
@@ -3398,27 +3386,22 @@ export const move: MoveTranslationEntries = {
   },
   bleakwindStorm: {
     name: "찬바람폭풍",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "심신을 모두 떨게 만드는 차갑고도 거친 바람으로 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다."
   },
   wildboltStorm: {
     name: "번개폭풍",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "폭풍을 일으키고 뇌운을 불러서 번개와 바람으로 매섭게 공격한다. 상대를 마비 상태로 만들 때가 있다."
   },
   sandsearStorm: {
     name: "열사의폭풍",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "뜨겁게 달궈진 모래와 강렬한 바람으로 상대를 둘러싸서 공격한다. 상대를 화상 상태로 만들 때가 있다."
   },
   lunarBlessing: {
     name: "초승달의기도",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "초승달에 기도를 하여 자신과 같은 편의 HP와 상태 이상을 모두 회복한다."
   },
   takeHeart: {
     name: "브레이브차지",
-    /* 임의번역 (레전드 아르세우스 신규 기술) */
     effect: "기운을 고조시켜서 자신의 상태 이상을 회복하고 특수공격과 특수방어를 올린다."
   },
   gMaxWildfire: {
@@ -3471,7 +3454,6 @@ export const move: MoveTranslationEntries = {
   },
   gMaxStunShock: {
     name: "거다이감전",
-    /* 임의번역 (이벤트 맥스레이드 및 갑옷의외딴섬 한정 포켓몬 기술) */
     effect: "거다이맥스한 스트린더가 사용하는 전기타입 공격. 독이나 마비 상태로 만든다."
   },
   gMaxFinale: {
@@ -3516,7 +3498,6 @@ export const move: MoveTranslationEntries = {
   },
   gMaxMeltdown: {
     name: "거다이융격",
-    /* 임의번역 (Go 연동 포켓몬 기술) */
     effect: "거다이맥스한 멜메탈이 사용하는 강철타입 공격. 똑같은 기술을 2회 연속으로 쓸 수 없게 한다."
   },
   gMaxFoamBurst: {
@@ -3737,27 +3718,22 @@ export const move: MoveTranslationEntries = {
   },
   blazingTorque: {
     name: "번액셀",
-    /* 임의번역 (NPC 전용기) */
     effect: "타오르는 엔진으로 상대에게 부릉거린다. 화상 상태로 만들 때가 있다."
   },
   wickedTorque: {
     name: "다크액셀",
-    /* 임의번역 (NPC 전용기) */
     effect: "악의적으로 상대를 향해 부릉거린다. 잠듦 상태로 만들 때가 있다."
   },
   noxiousTorque: {
     name: "포이즌액셀",
-    /* 임의번역 (NPC 전용기) */
     effect: "독성 엔진으로 상대에게 부릉거린다. 독 상태로 만들 때가 있다."
   },
   combatTorque: {
     name: "파이트액셀",
-    /* 임의번역 (NPC 전용기) */
     effect: "상대를 향해 기세 좋게 부릉거린다. 마비 상태로 만들 때가 있다."
   },
   magicalTorque: {
     name: "매지컬액셀",
-    /* 임의번역 (NPC 전용기) */
     effect: "메르헨틱한 엔진으로 상대에게 부릉거린다. 상대를 혼란시킬 때가 있다."
   },
   bloodMoon: {

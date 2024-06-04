@@ -214,7 +214,6 @@ export const ability: AbilityTranslationEntries = {
   },
   pickup: {
     name: "픽업",
-    /* 모험 없음 */
     description: "상대가 지닌 도구를 주워올 때가 있다."
   },
   truant: {
@@ -479,7 +478,6 @@ export const ability: AbilityTranslationEntries = {
   },
   frisk: {
     name: "통찰",
-    /* 효과 변경 */
     description: "등장했을 때 상대의 특성을 통찰할 수 있다."
   },
   reckless: {
@@ -624,7 +622,6 @@ export const ability: AbilityTranslationEntries = {
   },
   rattled: {
     name: "주눅",
-    /* 축약 있음 */
     description: "위협이나 악타입과 고스트타입과 벌레타입의 기술에 주눅이 들어 스피드가 올라간다."
   },
   magicBounce: {
@@ -953,7 +950,6 @@ export const ability: AbilityTranslationEntries = {
   },
   ballFetch: {
     name: "볼줍기",
-    /* 지닌 도구 제한 없음 */
     description: "첫 번째로 실패한 몬스터볼을 주워온다."
   },
   cottonDown: {
@@ -1202,7 +1198,6 @@ export const ability: AbilityTranslationEntries = {
   },
   mindsEye: {
     name: "심안",
-    /* 축약 있음 */
     description: "노말타입과 격투타입 기술을 고스트타입에게 맞힐 수 있다. 상대의 회피율 변화를 무시하고 명중률도 떨어지지 않는다."
   },
   supersweetSyrup: {
@@ -1248,5 +1243,5 @@ export const ability: AbilityTranslationEntries = {
   poisonPuppeteer: {
     name: "독조종",
     description: "복숭악동의 기술에 의해 독 상태가 된 상대는 혼란 상태도 되어 버린다."
-  },
+  }
 } as const;
