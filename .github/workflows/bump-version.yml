@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - test/auto-version-bump
 
 jobs:
   bump-version:
